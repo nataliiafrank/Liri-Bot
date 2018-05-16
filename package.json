@@ -1,0 +1,31 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data.",
+  "main": "liri.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliiafrank/Liri-node-app.git"
+  },
+  "keywords": [
+    "liri",
+    "bot",
+    "node"
+  ],
+  "author": "Nataliia Frank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliiafrank/Liri-node-app/issues"
+  },
+  "homepage": "https://github.com/nataliiafrank/Liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "node-spotify-api": "^1.0.7",
+    "npm": "^6.0.1",
+    "request": "^2.86.0",
+    "twitter": "^1.7.1"
+  }
+}

@@ -146,7 +146,7 @@ switch (comand) {
     case 'spotify-this-song':
         runSpotify();
         break;
-    case 'movie-search':
+    case 'movie-this':
         runOMDB();
         break;
     case 'do-what-it-says':
@@ -169,9 +169,12 @@ switch (comand) {
             } else if (dataArr[0] === 'spotify-this-song') {
                 var songName = dataArr[1];
                 runSpotify(songName);
-            } else if (dataArr[0] === 'movie-search') {
+            } else if (dataArr[0] === 'movie-this') {
                 var movieName = dataArr[1];
                 runOMDB(movieName);
             }
         })
+    default:
+    console.log("Hello, I'm Liri. I can run one of the following commands: \n- my-tweets \n- spotify-this-song \n- movie-this \n- do-what-it-says");
 }
+
